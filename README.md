@@ -5,5 +5,5 @@ wget https://raw.githubusercontent.com/ToanBm/ritual-node/refs/heads/main/instal
 chmod +x install.sh
 ./install.sh
 ```
-合同查询：输入你的地址查看最新一条就是合同
+合同查询：
 https://basescan.org/
