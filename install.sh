@@ -9,12 +9,6 @@
   echo "移除任何残留容器..."
   docker rm -f infernet-fluentbit infernet-redis infernet-anvil infernet-node 2>/dev/null || true
 
-# 函数：显示标志
-display_logo() {
-  sleep 2
-  curl -s https://raw.githubusercontent.com/ToanBm/user-info/main/logo.sh | bash
-  sleep 1
-}
 
 # 函数：显示菜单
 display_menu() {
